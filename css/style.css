@@ -1,0 +1,46 @@
+body {
+    font-size: 16px;    
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1.20;
+}
+
+.hello {
+    font-size: 36px;
+    padding: 20px;            
+}
+
+.insta {
+    line-height: 0;
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+.insta li, .insta li img {
+    max-width: 640px;
+    width: 100%;
+}
+
+.insta li {
+    width: 25%;
+    display: inline-block;
+}
+
+@media screen and (max-width : 600px){
+    .insta li {
+        width: 50%;
+    }    
+}
+
+.arrow-down {
+    position: relative;
+    top: 19px;
+    margin: 0 auto;
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;	
+    border-top: 20px solid white;
+}
